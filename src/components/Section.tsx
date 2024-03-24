@@ -6,7 +6,7 @@ type Props = {
   id: string;
   crosses: boolean;
   crossesOffset: string;
-  customPaddings: string;
+  customPaddings: boolean;
   children: ReactNode;
 };
 export default function Section({
