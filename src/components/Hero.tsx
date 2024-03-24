@@ -50,7 +50,7 @@ export default function Hero() {
                 <img
                   src={robot}
                   alt="robot"
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-100 md:-translate-y-[10%] lg:-translate-y-[33%]"
+                  className="w-full scale-[1.7] -translate-y-[8%] md:scale-100 md:-translate-y-[10%] lg:-translate-y-[33%]"
                   width={1024}
                   height={490}
                 />
