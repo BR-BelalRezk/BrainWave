@@ -1,4 +1,4 @@
-const ButtonSvg = (white: string) => (
+const ButtonSvg = (white: boolean) => (
   <>
     <svg
       className="absolute top-0 left-0"
