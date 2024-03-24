@@ -4,12 +4,12 @@ import plugin from "tailwindcss/plugin";
 
 export default {
   content: [
-    "/public/assets/**/*.{js,ts,jsx,tsx}",
     "./index.html",
     "/src/**/*.{js,ts,jsx,tsx}",
-    "/src/app/**/*.{js,ts,jsx,tsx}",
-    "/src/components/**/*.{js,ts,jsx,tsx}",
-    "/src/design/**/*.{js,ts,jsx,tsx}",
+    "./public/assets/**/*.{js,ts,jsx,tsx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/design/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

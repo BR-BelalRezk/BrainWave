@@ -1,4 +1,4 @@
-import { companyLogos } from "../app/constants";
+import { companyLogos } from "../constants";
 
 export default function CompanyLogos({ className }: { className: string }) {
   return (

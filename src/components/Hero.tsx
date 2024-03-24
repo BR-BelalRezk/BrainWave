@@ -3,7 +3,7 @@ import { curve, heroBackground, robot } from "../../public/assets";
 import Button from "./Button";
 import Section from "./Section";
 import { ScrollParallax } from "react-just-parallax";
-import { heroIcons } from "../app/constants";
+import { heroIcons } from "../constants";
 import { BackgroundCircles, BottomLine, Gradient } from "../design/Hero";
 import Generating from "./Generating";
 import Notification from "./Notification";

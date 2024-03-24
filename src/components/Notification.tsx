@@ -1,5 +1,5 @@
 import { notification1 } from "../../public/assets";
-import { notificationImages } from "../app/constants";
+import { notificationImages } from "../constants";
 
 export default function Notification({
   title,

@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { brainwave } from "../../public/assets";
-import { navigation } from "../app/constants";
+import { navigation } from "../constants";
 import Button from "./Button";
 import { useState } from "react";
 import { HamburgerMenu } from "../design/Header";
