@@ -1,5 +1,6 @@
 import { check } from "../../public/assets";
-import { collabContent } from "../constants";
+import { collabContent, collabText } from "../constants";
+import Button from "./Button";
 import Section from "./Section";
 
 export default function Collaboration() {
@@ -23,6 +24,12 @@ export default function Collaboration() {
               </li>
             ))}
           </ul>
+          <Button>Try it now</Button>
+        </div>
+        <div className="lg:ml-auto xl:w-[38rem]">
+          <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem]">
+            {collabText}
+          </p>
         </div>
       </div>
     </Section>
