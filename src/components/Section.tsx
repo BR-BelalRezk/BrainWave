@@ -2,12 +2,12 @@ import { ReactNode } from "react";
 import SectionSvg from "../../public/assets/svg/SectionSvg";
 
 type Props = {
-  className: string;
-  id: string;
-  crosses: boolean;
-  crossesOffset: string;
-  customPaddings: boolean;
-  children: ReactNode;
+  className?: string;
+  id?: string;
+  crosses?: boolean;
+  crossesOffset?: string;
+  customPaddings?: boolean;
+  children?: ReactNode;
 };
 export default function Section({
   className,
@@ -34,7 +34,7 @@ export default function Section({
               crossesOffset && crossesOffset
             } pointer-events-none lg:block xl:left-10  xl:right-10`}
           />
-          <SectionSvg crossesOffset={crossesOffset} />
+          <SectionSvg crossesOffset={crossesOffset || ""} />
         </>
       )}
     </section>
