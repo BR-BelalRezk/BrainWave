@@ -6,7 +6,7 @@ export default function Tagline({
   className,
 }: {
   children: ReactNode;
-  className: string;
+  className?: string;
 }) {
   return (
     <div className={`tagline flex items-center ${className || ""}`}>
